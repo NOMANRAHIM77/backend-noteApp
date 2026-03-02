@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 async function connectDB(){
-   await  mongoose.connect("mongodb+srv://nomanrahim53_db_user:LHx6Qpo6DIBfVvKX@backend-1.a9snt5z.mongodb.net/karachi")
+   // await  mongoose.connect(insert your mongodb cluster string here)
   console.log("connected to database")
 }
 
